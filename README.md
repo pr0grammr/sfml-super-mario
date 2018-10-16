@@ -21,15 +21,4 @@ Read more about <a href="https://www.sfml-dev.org/" target="_blank">SFML</a>.
 
 **This project is under construction yet. If you wanna stay tuned, just watch this repository.** 
 
-## ToDo
 
-- [x] Create Game class (initialize window)
-- [x] Create Character Class (create Sprite for texture)
-- [ ] Create variables for pixel margin, movement speed 
-- [ ] Add transition to moving
-- [ ] Make mario moves faster
-- [x] Mario run outside the window
-- [ ] Stop mario to base position when stop running
-- [x] Add background to game (add to Game class) 
-- [x] Mario go left and right (smooth moving)
-- [ ] Mario jump

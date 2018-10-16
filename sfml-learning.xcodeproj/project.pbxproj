@@ -13,6 +13,7 @@
 		67F9D0082176610400E4B0E6 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 67F9D0072176610400E4B0E6 /* nice_music.ogg */; };
 		67F9D00A2176610400E4B0E6 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67F9D0092176610400E4B0E6 /* sansation.ttf */; };
 		67F9D00C2176610400E4B0E6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F9D00B2176610400E4B0E6 /* icon.png */; };
+		67F9D0142176690C00E4B0E6 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67F9D0122176690C00E4B0E6 /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		67F9D0072176610400E4B0E6 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		67F9D0092176610400E4B0E6 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		67F9D00B2176610400E4B0E6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		67F9D0122176690C00E4B0E6 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		67F9D0132176690C00E4B0E6 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				67F9D0022176610400E4B0E6 /* main.cpp */,
 				67F9D0042176610400E4B0E6 /* Resources */,
 				67F9CFFD2176610400E4B0E6 /* Supporting Files */,
+				67F9D0122176690C00E4B0E6 /* Game.cpp */,
+				67F9D0132176690C00E4B0E6 /* Game.hpp */,
 			);
 			path = "sfml-learning";
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F9D0142176690C00E4B0E6 /* Game.cpp in Sources */,
 				67F9D0032176610400E4B0E6 /* main.cpp in Sources */,
 				67F9D0002176610400E4B0E6 /* ResourcePath.mm in Sources */,
 			);
