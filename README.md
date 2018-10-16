@@ -2,7 +2,7 @@
 
 # SFML - Super Mario Project
 
-This is a small and simple project to learn and unterstand SFML and the logics and principles behind game development.
+This is a small and simple project to learn and understand SFML and the logics and principles behind game development.
 
 ## What is this project about?
 

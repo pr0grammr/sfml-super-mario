@@ -13,9 +13,18 @@
 int main(int, char const**)
 {
     // settings for Game
-    Game::WIDTH = 640;
-    Game::HEIGHT = 480;
-    Game::TITLE = "SFML - Super Mario";
+    Game::width = 640;
+    Game::height = 480;
+    Game::title = "SFML - Super Mario";
+    
+    // get the objectmanager
+    GameObjectManager manager = Game::getManager();
+    Platform p1(200, 40);
+    p1.setPosition(0, 40);
+    p1.setColor(sf::Color(255,255,255));
+    
+    // add platform to game object manager
+    manager.add("object1", p1);
     
     // run game
     Game::run();

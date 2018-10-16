@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "GameObjectManager.hpp"
 
 // Game class
 // controls game events and object rendering
@@ -7,9 +8,9 @@
 class Game {
 public:
     
-    static float WIDTH;
-    static float HEIGHT;
-    static std::string TITLE;
+    static float width;
+    static float height;
+    static std::string title;
     
     // define various game states
     enum GameState {
@@ -20,13 +21,16 @@ public:
     };
     
     static void run(void);
+    static GameObjectManager getManager();
     
 private:
     
     static GameState _gameState;
     static sf::RenderWindow _window;
+    static GameObjectManager _gameObjectManager;
     
     static void _loop(void);
     static bool _isRunning(void);
+    
     
 };
