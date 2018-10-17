@@ -3,11 +3,11 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-class Platform {
+class GameObject {
 public:
-    Platform();
-    Platform(int width, int height);
-    ~Platform();
+    GameObject();
+    GameObject(int width, int height);
+    ~GameObject();
     
     // define dimensions and position
     int width, height;

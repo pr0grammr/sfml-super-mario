@@ -19,7 +19,7 @@ int main(int, char const**)
     
     // get the objectmanager
     GameObjectManager manager = Game::getManager();
-    Platform p1(Game::width, 16);
+    GameObject p1(Game::width, 16);
     p1.setPosition(0, Game::height - 16);
     p1.setTexture(resourcePath() + "stage.png");
     

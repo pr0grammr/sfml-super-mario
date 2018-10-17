@@ -2,13 +2,13 @@
 // holds game objects to draw in window
 #pragma once
 #include <map>
-#include "Platform.hpp"
+#include "GameObject.hpp"
 
 class GameObjectManager {
 public:
-    static void add(std::string name, Platform& platform);
-    static std::map<std::string, Platform> getObjects();
+    static void add(std::string name, GameObject& gameObject);
+    static std::map<std::string, GameObject> getObjects();
     
 private:
-    static std::map<std::string, Platform> _objects;
+    static std::map<std::string, GameObject> _objects;
 };
