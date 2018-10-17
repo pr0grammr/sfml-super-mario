@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "GameObjectManager.hpp"
+#include "Player.hpp"
 
 // Game class
 // controls game events and object rendering
@@ -31,6 +32,5 @@ private:
     
     static void _loop(void);
     static bool _isRunning(void);
-    
     
 };

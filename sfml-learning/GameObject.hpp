@@ -18,7 +18,7 @@ public:
     void setTexture(std::string texturePath);
     bool setTextureRepeat(bool repeat);
     
-private:
+protected:
     sf::IntRect _rect;
     sf::Texture _texture;
     sf::Sprite _sprite;

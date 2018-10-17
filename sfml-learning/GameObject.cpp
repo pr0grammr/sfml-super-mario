@@ -1,4 +1,5 @@
 #include "GameObject.hpp"
+#include <iostream>
 
 GameObject::GameObject() : _rect(0, 0, 0, 0), _textureRepeat(true) {
     this->_sprite.setPosition(0, 0);

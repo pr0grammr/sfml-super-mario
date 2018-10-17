@@ -19,12 +19,19 @@ int main(int, char const**)
     
     // get the objectmanager
     GameObjectManager manager = Game::getManager();
+    
+    // create ground
     GameObject p1(Game::width, 16);
     p1.setPosition(0, Game::height - 16);
     p1.setTexture(resourcePath() + "stage.png");
+    manager.add("object1", p1); // add to manager
     
-    // add platform to game object manager
-    manager.add("object1", p1);
+    // create player
+    Player player(16, 32);
+    player.setTexture(resourcePath() + "supermario.png");
+    player.setPosition(0, Game::height - 48);
+    manager.add("player", player); // add to game manager
+    
     
     // run game
     Game::run();
