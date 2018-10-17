@@ -19,9 +19,9 @@ int main(int, char const**)
     
     // get the objectmanager
     GameObjectManager manager = Game::getManager();
-    Platform p1(200, 40);
-    p1.setPosition(0, 40);
-    p1.setColor(sf::Color(255,255,255));
+    Platform p1(Game::width, 16);
+    p1.setPosition(0, Game::height - 16);
+    p1.setTexture(resourcePath() + "stage.png");
     
     // add platform to game object manager
     manager.add("object1", p1);

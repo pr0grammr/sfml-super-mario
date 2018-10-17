@@ -14,10 +14,13 @@ public:
     
     void setPosition(float x, float y);
     sf::Vector2f getPosition();
-    void setColor(const sf::Color& color);
-    sf::Color getColor();
     void draw(sf::RenderWindow& window);
+    void setTexture(std::string texturePath);
+    bool setTextureRepeat(bool repeat);
     
 private:
-    sf::RectangleShape _rect;
+    sf::IntRect _rect;
+    sf::Texture _texture;
+    sf::Sprite _sprite;
+    bool _textureRepeat;
 };

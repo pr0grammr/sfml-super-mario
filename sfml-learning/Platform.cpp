@@ -1,31 +1,34 @@
 #include "Platform.hpp"
 
-Platform::Platform() : _rect(sf::Vector2f(0, 0)) {
-    this->_rect.setPosition(0, 0);
+Platform::Platform() : _rect(0, 0, 0, 0), _textureRepeat(true) {
+    this->_sprite.setPosition(0, 0);
 }
 
-Platform::Platform(int width, int height) : _rect(sf::Vector2f(width, height)) {
-    this->_rect.setPosition(0, 0);
+Platform::Platform(int width, int height) : _rect(0, 0, width, height), _textureRepeat(true) {
+    this->_sprite.setPosition(0, 0);
 }
 
 Platform::~Platform() {}
 
 void Platform::setPosition(float x, float y) {
-    this->_rect.setPosition(x, y);
+    this->_sprite.setPosition(x, y);
 }
 
 sf::Vector2f Platform::getPosition() {
-    return this->_rect.getPosition();
-}
-
-void Platform::setColor(const sf::Color& color) {
-    this->_rect.setFillColor(sf::Color(color.r, color.g, color.b));
-}
-
-sf::Color Platform::getColor() {
-    return this->_rect.getFillColor();
+    return this->_sprite.getPosition();
 }
 
 void Platform::draw(sf::RenderWindow& window) {
-    window.draw(this->_rect);
+    window.draw(this->_sprite);
+}
+
+void Platform::setTexture(std::string texturePath) {
+    this->_texture.loadFromFile(texturePath);
+    this->_texture.setRepeated(this->_textureRepeat);
+    this->_sprite.setTexture(this->_texture);
+    this->_sprite.setTextureRect(this->_rect);
+}
+
+bool Platform::setTextureRepeat(bool repeat) {
+    this->_textureRepeat = repeat;
 }
