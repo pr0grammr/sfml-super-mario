@@ -1,5 +1,4 @@
 #include "GameObject.hpp"
-#include <iostream>
 
 GameObject::GameObject() : _rect(0, 0, 0, 0), _textureRepeat(true) {
     this->_sprite.setPosition(0, 0);
@@ -28,6 +27,10 @@ void GameObject::setTexture(std::string texturePath) {
     this->_texture.setRepeated(this->_textureRepeat);
     this->_sprite.setTexture(this->_texture);
     this->_sprite.setTextureRect(this->_rect);
+}
+
+sf::Texture GameObject::getTexture() {
+    return this->_texture;
 }
 
 bool GameObject::setTextureRepeat(bool repeat) {

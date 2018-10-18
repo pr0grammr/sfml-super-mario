@@ -1,6 +1,7 @@
 // Game object manager
 // holds game objects to draw in window
 #pragma once
+
 #include <map>
 #include "GameObject.hpp"
 

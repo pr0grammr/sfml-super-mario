@@ -1,6 +1,7 @@
 // Platform class
 // Mario can run or jump on it
 #pragma once
+
 #include <SFML/Graphics.hpp>
 
 class GameObject {
@@ -16,6 +17,7 @@ public:
     sf::Vector2f getPosition();
     void draw(sf::RenderWindow& window);
     void setTexture(std::string texturePath);
+    sf::Texture getTexture();
     bool setTextureRepeat(bool repeat);
     
 protected:

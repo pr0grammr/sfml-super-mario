@@ -1,4 +1,5 @@
 #pragma once
+
 #include <SFML/Graphics.hpp>
 #include "GameObjectManager.hpp"
 #include "Player.hpp"
@@ -23,6 +24,7 @@ public:
     
     static void run(void);
     static GameObjectManager getManager();
+    static void setPlayer(Player& player);
     
 private:
     
@@ -30,7 +32,10 @@ private:
     static sf::RenderWindow _window;
     static GameObjectManager _gameObjectManager;
     
-    static void _loop(void);
+    static void _loop(Player& player);
     static bool _isRunning(void);
+    
+    static sf::Clock _timer;
+    static float _deltaTime;
     
 };
