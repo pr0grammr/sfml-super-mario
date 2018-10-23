@@ -12,7 +12,8 @@
 		67137B352177C3AA009C9C58 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 67137B342177C3AA009C9C58 /* stage.png */; };
 		67137B382177C7FB009C9C58 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67137B362177C7FB009C9C58 /* Player.cpp */; };
 		67137B3F21790818009C9C58 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67137B3D21790818009C9C58 /* Animation.cpp */; };
-		67137B4321792884009C9C58 /* supermario.png in Resources */ = {isa = PBXBuildFile; fileRef = 67137B4221792884009C9C58 /* supermario.png */; };
+		67137B45217A6AE4009C9C58 /* supermario.png in Resources */ = {isa = PBXBuildFile; fileRef = 67137B44217A6AE4009C9C58 /* supermario.png */; };
+		67848524217FB07E006A7C7D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 67848523217FB07E006A7C7D /* background.png */; };
 		67F9D0002176610400E4B0E6 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67F9CFFF2176610400E4B0E6 /* ResourcePath.mm */; };
 		67F9D0032176610400E4B0E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67F9D0022176610400E4B0E6 /* main.cpp */; };
 		67F9D00C2176610400E4B0E6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F9D00B2176610400E4B0E6 /* icon.png */; };
@@ -29,7 +30,8 @@
 		67137B372177C7FB009C9C58 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 		67137B3D21790818009C9C58 /* Animation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
 		67137B3E21790818009C9C58 /* Animation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
-		67137B4221792884009C9C58 /* supermario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = supermario.png; path = ../../../Desktop/supermario.png; sourceTree = "<group>"; };
+		67137B44217A6AE4009C9C58 /* supermario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = supermario.png; path = ../../../Desktop/supermario.png; sourceTree = "<group>"; };
+		67848523217FB07E006A7C7D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../Desktop/background.png; sourceTree = "<group>"; };
 		67F9CFFA2176610400E4B0E6 /* sfml-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sfml-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F9CFFE2176610400E4B0E6 /* sfml-learning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sfml-learning-Info.plist"; sourceTree = "<group>"; };
 		67F9CFFF2176610400E4B0E6 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 		67F9D0042176610400E4B0E6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67137B4221792884009C9C58 /* supermario.png */,
+				67848523217FB07E006A7C7D /* background.png */,
+				67137B44217A6AE4009C9C58 /* supermario.png */,
 				67137B342177C3AA009C9C58 /* stage.png */,
 				67F9D00B2176610400E4B0E6 /* icon.png */,
 			);
@@ -164,7 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67137B4321792884009C9C58 /* supermario.png in Resources */,
+				67137B45217A6AE4009C9C58 /* supermario.png in Resources */,
+				67848524217FB07E006A7C7D /* background.png in Resources */,
 				67137B352177C3AA009C9C58 /* stage.png in Resources */,
 				67F9D00C2176610400E4B0E6 /* icon.png in Resources */,
 			);

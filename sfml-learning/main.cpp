@@ -20,6 +20,11 @@ int main(int, char const**)
     // get the objectmanager
     GameObjectManager manager = Game::getManager();
     
+    // set background for game
+    GameObject background(Game::width, Game::height);
+    background.setTexture(resourcePath() + "background.png");
+    manager.add("background", background);
+    
     // create ground
     GameObject p1(Game::width, 16);
     p1.setPosition(0, Game::height - 16);

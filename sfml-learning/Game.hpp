@@ -24,7 +24,6 @@ public:
     
     static void run(void);
     static GameObjectManager getManager();
-    static void setPlayer(Player& player);
     
 private:
     

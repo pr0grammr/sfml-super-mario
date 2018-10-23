@@ -13,8 +13,8 @@ void Game::run() {
     
     sf::Texture playerTexture;
     playerTexture.loadFromFile(resourcePath() + "supermario.png");
-    Player player(&playerTexture, sf::Vector2u(3, 1), 0.1f, 120.0f);
-    player.setPosition(0, height - 48);
+    Player player(&playerTexture, sf::Vector2u(3, 2), 0.1f, 120.0f);
+    player.setPosition(0, height - 45);
     
     while (_isRunning()) {
         _loop(player);
@@ -46,10 +46,7 @@ void Game::_loop(Player& player) {
         platform.second.draw(_window);
     }
     
-    if (pos.x >= 0 && pos.x <= width) {
-        player.update(_deltaTime);
-    }
-    
+    player.update(_deltaTime);
     player.draw(_window);
     
     _window.display();
