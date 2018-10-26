@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:sfml-learning.xcodeproj">
+      location = "self:/Users/snak3/Repositories/sfml-learning/sfml-super-mario.xcodeproj">
    </FileRef>
 </Workspace>

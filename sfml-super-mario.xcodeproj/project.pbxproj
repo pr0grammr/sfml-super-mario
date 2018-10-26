@@ -32,8 +32,8 @@
 		67137B3E21790818009C9C58 /* Animation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
 		67137B44217A6AE4009C9C58 /* supermario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = supermario.png; path = ../../../Desktop/supermario.png; sourceTree = "<group>"; };
 		67848523217FB07E006A7C7D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../Desktop/background.png; sourceTree = "<group>"; };
-		67F9CFFA2176610400E4B0E6 /* sfml-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sfml-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F9CFFE2176610400E4B0E6 /* sfml-learning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sfml-learning-Info.plist"; sourceTree = "<group>"; };
+		67F9CFFA2176610400E4B0E6 /* sfml-super-mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sfml-super-mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F9CFFE2176610400E4B0E6 /* sfml-super-mario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sfml-super-mario-Info.plist"; sourceTree = "<group>"; };
 		67F9CFFF2176610400E4B0E6 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		67F9D0012176610400E4B0E6 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		67F9D0022176610400E4B0E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		67F9CFF02176610400E4B0E6 = {
 			isa = PBXGroup;
 			children = (
-				67F9CFFC2176610400E4B0E6 /* sfml-learning */,
+				67F9CFFC2176610400E4B0E6 /* sfml-super-mario */,
 				67F9CFFB2176610400E4B0E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		67F9CFFB2176610400E4B0E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67F9CFFA2176610400E4B0E6 /* sfml-learning.app */,
+				67F9CFFA2176610400E4B0E6 /* sfml-super-mario.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67F9CFFC2176610400E4B0E6 /* sfml-learning */ = {
+		67F9CFFC2176610400E4B0E6 /* sfml-super-mario */ = {
 			isa = PBXGroup;
 			children = (
 				67F9CFFF2176610400E4B0E6 /* ResourcePath.mm */,
@@ -88,13 +88,13 @@
 				67137B3D21790818009C9C58 /* Animation.cpp */,
 				67137B3E21790818009C9C58 /* Animation.hpp */,
 			);
-			path = "sfml-learning";
+			path = "sfml-super-mario";
 			sourceTree = "<group>";
 		};
 		67F9CFFD2176610400E4B0E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				67F9CFFE2176610400E4B0E6 /* sfml-learning-Info.plist */,
+				67F9CFFE2176610400E4B0E6 /* sfml-super-mario-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67F9CFF92176610400E4B0E6 /* sfml-learning */ = {
+		67F9CFF92176610400E4B0E6 /* sfml-super-mario */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67F9D00F2176610400E4B0E6 /* Build configuration list for PBXNativeTarget "sfml-learning" */;
+			buildConfigurationList = 67F9D00F2176610400E4B0E6 /* Build configuration list for PBXNativeTarget "sfml-super-mario" */;
 			buildPhases = (
 				67F9CFF52176610400E4B0E6 /* Sources */,
 				67F9CFF62176610400E4B0E6 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "sfml-learning";
+			name = "sfml-super-mario";
 			productName = "sfml-learning";
-			productReference = 67F9CFFA2176610400E4B0E6 /* sfml-learning.app */;
+			productReference = 67F9CFFA2176610400E4B0E6 /* sfml-super-mario.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 67F9CFF42176610400E4B0E6 /* Build configuration list for PBXProject "sfml-learning" */;
+			buildConfigurationList = 67F9CFF42176610400E4B0E6 /* Build configuration list for PBXProject "sfml-super-mario" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67F9CFF92176610400E4B0E6 /* sfml-learning */,
+				67F9CFF92176610400E4B0E6 /* sfml-super-mario */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +308,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "sfml-learning/sfml-learning-Info.plist";
+				INFOPLIST_FILE = "sfml-learning/sfml-super-mario-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -320,7 +320,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "sfml-learning/sfml-learning-Info.plist";
+				INFOPLIST_FILE = "sfml-learning/sfml-super-mario-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67F9CFF42176610400E4B0E6 /* Build configuration list for PBXProject "sfml-learning" */ = {
+		67F9CFF42176610400E4B0E6 /* Build configuration list for PBXProject "sfml-super-mario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67F9D00D2176610400E4B0E6 /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F9D00F2176610400E4B0E6 /* Build configuration list for PBXNativeTarget "sfml-learning" */ = {
+		67F9D00F2176610400E4B0E6 /* Build configuration list for PBXNativeTarget "sfml-super-mario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67F9D0102176610400E4B0E6 /* Debug */,
