@@ -13,7 +13,7 @@ void Game::run() {
     
     sf::Texture playerTexture;
     playerTexture.loadFromFile(resourcePath() + "supermario.png");
-    Player player(&playerTexture, sf::Vector2u(3, 2), 0.1f, 120.0f);
+    Player player(&playerTexture, sf::Vector2u(3, 2), 0.1f, 120.0f, 75);
     player.setPosition(0, height - 45);
     
     while (_isRunning()) {

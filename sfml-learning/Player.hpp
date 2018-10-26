@@ -6,7 +6,7 @@
 
 class Player {
 public:
-    Player(sf::Texture* texture, sf::Vector2u imageCount, float switchTime, float speed);
+    Player(sf::Texture* texture, sf::Vector2u imageCount, float switchTime, float speed, float jumpHeight);
     ~Player();
     
     void update(float deltaTime);
@@ -19,5 +19,11 @@ private:
     Animation _animation;
     unsigned int _row;
     float _speed;
+    float _speedMultiply;
     bool _faceRight;
+    
+    sf::Vector2f _velocity;
+    float _jumpHeight;
+    bool _canJump;
+    bool _isJumping;
 };

@@ -10,8 +10,7 @@ public:
     
     sf::IntRect uvrect;
     
-    void update(int row, float deltaTime, bool faceRight);
-    void setDefault();
+    void update(int row, float deltaTime, bool faceRight, bool jump, bool defaultV);
     
 private:
     sf::Vector2u _imageCount;

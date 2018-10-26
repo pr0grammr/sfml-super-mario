@@ -12,7 +12,7 @@ Animation::Animation(sf::Texture* texture, sf::Vector2u imageCount, float switch
 
 Animation::~Animation() {}
 
-void Animation::update(int row, float deltaTime, bool faceRight) {
+void Animation::update(int row, float deltaTime, bool faceRight, bool jump, bool defaultV) {
     this->_currentImage.y = row;
     this->_totalTime += deltaTime;
     
@@ -27,6 +27,14 @@ void Animation::update(int row, float deltaTime, bool faceRight) {
     
     this->uvrect.top = this->_currentImage.y * this->uvrect.height;
     
+    if (jump) {
+        this->_currentImage.x = 2;
+    }
+    
+    if (defaultV) {
+        this->_currentImage.x = 0;
+    }
+    
     if (faceRight) {
         this->uvrect.left = this->_currentImage.x * this->uvrect.width;
         this->uvrect.width = abs(this->uvrect.width);
@@ -36,6 +44,3 @@ void Animation::update(int row, float deltaTime, bool faceRight) {
     }
 }
 
-void Animation::setDefault() {
-    this->_currentImage.x = 0;
-}
