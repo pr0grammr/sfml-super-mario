@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/sawzcode/sfml-learning/master/super-mario-world-logo.png" style="display: block; width: 50%; margin: 0 auto;" alt="Super Mario World - Logo"/>
+<img src="https://raw.githubusercontent.com/pr0grammr/sfml-learning/master/super-mario-world-logo.png" style="display: block; width: 50%; margin: 0 auto;" alt="Super Mario World - Logo"/>
 
 # SFML - Super Mario Project
 
